@@ -11,8 +11,8 @@ The UPMKI is a tool to read a Citrix UPM logfile and outputs the login/logoff ti
 The simplest way to use the script:
 > & '.\UPMKI.ps1' -UPMLogfile upm.log
 
-You'll see something like this:
-![Preview UPMKI](UPMKI.png)
+You'll see something like this:  
+![Preview UPMKI](UPMKI.PNG)
 
 Another way to use the tool is to define the optional parameter for the login/logoff thresholds.
 > & '.\UPMKI.ps1' -UPMLogfile upm.log -ThresholdLogin 15 -ThresholdLogin 15
